@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.nav-top h1 {
+  color: #ffffff;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.nav-top ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-top ul li a {
+  color: #ffffff;
+  padding: 0 40px;
+}
+
+.header-container {
+  background: url("../img/sample2.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.header-container .header-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  color: #ffffff;
+}
+
+.header-container .header-content h2 {
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 6px;
+}
+
+.header-container .header-content h2 span {
+  font-size: 80px;
+}
+
+.nav-middle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-middle a {
+  color: #ffffff;
+  padding: 25px 80px;
+  border: #ffffff solid 2px;
+}
+
+section {
+  background: #f0f0f0;
+}
+
+section .triangle {
+  display: flex;
+  height: 200px;
+}
+
+section .triangle div {
+  flex-basis: 50%;
+}
+
+section .triangle div p {
+  margin: 30px;
+}
+
+section .triangle .triangle-white {
+  align-self: flex-end;
+}
+
+section .triangle .triangle-white span {
+  font-weight: 900;
+}
+
+section .triangle .triangle-black {
+  background: #000000;
+  color: #ffffff;
+}
+
+section h3 {
+  text-align: center;
+  margin: 30px;
+  font-size: 28px;
+}
+
+section h3 span {
+  font-weight: 300;
+}
+
+section .container-section {
+  display: flex;
+}
+
+section .container-section div {
+  flex-basis: 50%;
+}
+
+section .container-section p {
+  padding: 20px 20px 20px 40px;
+  text-align: center;
+}
+
+section .container-section .container-img-left {
+  background: url("../img/sample-1.jpg") no-repeat center center/cover;
+  height: 400px;
+  margin: 0 0 20px 20px;
+  color: #ffffff;
+  display: flex;
+}
+
+section .container-section .container-img-left .likes {
+  margin: 15px;
+  align-self: baseline;
+  width: 100%;
+}
+
+section .container-section .container-img-left .likes a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px;
+  border: #ffffff solid 2px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+section .container-section .container-img-left .date {
+  align-self: flex-end;
+  width: 80px;
+}
+
+section .container-section .container-img-left .date p {
+  padding: 10px;
+}
+
+section .container-section .container-img-left .date p span {
+  font-weight: 900;
+}
+
+section .container-section .container-img-right {
+  background: url("../img/sample-2.jpg") no-repeat center center/cover;
+  height: 400px;
+  margin: 0 20px 20px 0;
+  color: #ffffff;
+  display: flex;
+}
